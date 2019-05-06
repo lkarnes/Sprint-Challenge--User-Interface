@@ -153,7 +153,13 @@ footer nav a {
 }
 
 .header-item {
-    color: black;
+    color: black; 
+}
+
+.header-item:hover {
+    color: crimson;
+    transition: all ease-in-out .2s;
+    transform: scale(1.5);
 }
 
 header a {
@@ -257,6 +263,15 @@ header a {
     margin: 15px 0;
 }
 
-.contact-item a {
+.contact-item a, .contact-item p {
     text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.contact-item a:hover, .contact-item p:hover {
+color: crimson;
+transition: all ease-in-out .5s;
+transform: scale(1.2);
 }
