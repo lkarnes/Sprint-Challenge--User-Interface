@@ -199,3 +199,36 @@ header a {
 .box-10 {
     background: dodgerblue;
 }
+
+.about-section {
+    padding: 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.content-box-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.content-item {
+    width: 45%;
+    padding: 30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.content-item a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+
+.bottom-item {
+    margin-bottom: 40px;
+}
